@@ -1,0 +1,36 @@
+.navbar ul li a:hover {
+  color: #ffc300;
+}
+
+.up-submit:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #003566;
+  z-index: -1;
+}
+
+.up-submit:hover,
+.up-submit:focus {
+  color: white;
+}
+.up-submit:hover:before,
+.up-submit:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.up-submit:active {
+  transform: scale(0.9);
+}
+
+.col-2 a:hover {
+  color: #003566;
+}
