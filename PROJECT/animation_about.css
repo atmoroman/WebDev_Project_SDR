@@ -1,0 +1,16 @@
+.navbar ul li a:hover {
+  color: #ffc300;
+}
+
+.col-2 a:hover {
+  color: #003566;
+}
+
+.inf-img:hover {
+  width: 52%;
+  height: 52%;
+}
+
+.inf-img:hover::after {
+  opacity: 50%;
+}

@@ -33,21 +33,28 @@
 
     <main>
       <div class="bg-up">
-          <video autoplay muted loop id="myVideo">
-            <source src="contactbg.mp4" type="video/mp4" />
-          </video>
+        <video autoplay muted loop id="myVideo">
+          <source src="contactbg.mp4" type="video/mp4" />
+        </video>
         <div class="overlay-request">
           <h1>Submit a Request</h1>
           <div>
             <form>
+              <h2>Your email adress</h2>
               <input type="text" id="fname" name="fname" />
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
-              <input type="text" id="lname" name="lname"/>
+              <h2>Your name</h2>
+              <input type="text" id="lname" name="lname" />
+              <h2>Reason for contact</h2>
+              <input type="text" id="lname" name="lname" />
+              <h2>Subject</h2>
+              <input type="text" id="lname" name="lname" />
+              <h2>Description</h2>
+              <input type="text" id="lname" name="lname" />
+              <h2>Attachments</h2>
+              <input type="file" id="myfile" name="myfile" />
+              <label for="myfile" class="file-appearence">
+                Choose a file or drag and drop here
+              </label>
             </form>
           </div>
           <div><button class="up-submit">Submit</button></div>
