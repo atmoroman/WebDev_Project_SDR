@@ -28,6 +28,7 @@ main {
 /*
 NavBar
 */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -81,7 +82,7 @@ header {
 }
 
 /*
-Index
+Homepage
 */
 
 .image-container {
