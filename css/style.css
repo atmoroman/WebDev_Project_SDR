@@ -525,11 +525,11 @@ ABOUT
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 120px 20px 20px 20px;
+  margin: 20px;
 }
 .inf-img {
   display: flex;
-  margin-top: 0px;
+  margin-top: 110px;
   width: 50%;
   height: 50%;
   border-radius: 20px;
