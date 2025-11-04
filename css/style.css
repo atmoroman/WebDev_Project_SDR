@@ -138,14 +138,14 @@ Homepage
   color: #000814;
 }
 .up-but {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 2px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   color: #000814;
   font-weight: bold;
-  padding: 15px 32px;
+  padding: 5px 35px;
   border: 3px solid #000814;
   border-radius: 2px;
   position: relative;
@@ -158,6 +158,11 @@ Homepage
   cursor: pointer;
   transition: color 0.3s ease;
   z-index: 1;
+  padding-right: 35px;
+  
+  background-size: 12px 8px;
+  background-position: right 20px center;
+  
 }
 
 .up-search {
@@ -184,7 +189,7 @@ Homepage
 }
 
 .up-but:before {
-  transition: 0.5s all ease;
+  transition: all 0.5s ease;
   position: absolute;
   top: 0;
   left: 50%;
@@ -198,7 +203,8 @@ Homepage
 
 .up-but:hover,
 .up-but:focus {
-  color: white;
+  color: #000814;
+  outline: none;
 }
 .up-but:hover:before,
 .up-but:focus:before {
@@ -307,6 +313,7 @@ footer {
 
 footer div {
   text-align: center;
+  
 }
 .col-1 h1 {
   font-weight: bold;
@@ -320,8 +327,19 @@ footer div {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 10px;
-  margin-top: 0px;
+  margin-top: 1px;
 }
+.login-btn {
+    display: inline-block;
+    background-color: #ffc300; 
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
 
 .col-2 {
   margin-left: 30%;
@@ -337,16 +355,33 @@ footer div {
   margin-bottom: 10px;
   transition: 0.3s ease;
 }
+.col-2 a:hover {
+  color: #ffc300;
+}
 
 footer div h3 {
   font-weight: 300;
   font-weight: 300;
   margin-bottom: 40px;
   letter-spacing: 1px;
+  
 }
-
-.col-2 a:hover {
-  color: #ffc300;
+.col-3 {
+  display: flex;
+  flex-direction: column; 
+  margin: 5px 0;
+  font-size: large;
+}
+.col-3 a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+.col-3 a:hover {
+    color: #ffc300;
 }
 
 /*
