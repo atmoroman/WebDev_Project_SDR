@@ -603,3 +603,129 @@ text-align: center;
 .gallery:hover{
   border: 1px solid #ffc300;
 }
+
+
+
+
+/*
+Phones
+*/
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar ul {
+    gap: 10px;
+  }
+
+  .navbar ul li a{
+    font-size: 10px;
+  }
+
+  main {
+    margin-top: 80px;
+  }
+
+  .bg-up {
+    height: auto;
+  }
+
+  .overlay-up {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .up-search,
+  .up-but {
+    width: 90%;
+  }
+
+  /* Showcase */
+  .showcase {
+    width: 90%;
+    height: auto;
+  }
+
+  .showcase:hover {
+    width: 92%;
+    height: auto;
+  }
+
+  .showcase::after {
+    font-size: 30px;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    padding: 30px 5%;
+    text-align: center;
+  }
+
+  .col-2,
+  .col-3 {
+    margin: 20px 0;
+  }
+
+  /* Contact form */
+  .overlay-request {
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .overlay-request h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .up-submit {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  /* About */
+  .inf {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .inf-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .inf-about {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .inf-about h1 {
+    font-size: 28px;
+  }
+
+  /* Collection */
+  .gallery {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
