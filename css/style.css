@@ -633,10 +633,109 @@ Phones
   main {
     margin-top: 80px;
   }
+  .image-container {
+    position: relative;
+    height: 100px;
+    width: 100px;
+  }
 
   .bg-up {
-    height: auto;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
   }
+  .wrap {
+    margin-top: 19px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .upper-image {
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+  }
+  .overlay-up {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    background-color: #ffc300;
+    text-align: center;
+    width: 100%;
+    max-width: 448px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 0;
+  }
+
+  .overlay-up h1 {
+    margin: 20px 0 10px 0;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: #000814;
+  }
+  .up-but {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000814;
+    font-weight: bold;
+    padding: 5px 35px;
+    border: 3px solid #000814;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 20px 20px 20px;
+    background-color: transparent;
+    appearance: none;
+    width: 180px;
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 1;
+    padding-right: 35px;
+    
+    background-size: 12px 8px;
+    background-position: right 20px center;
+    
+  }
+
+  .up-search {
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    border: 3px solid #000814;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 20px 20px 20px;
+    background-color: #000814;
+    appearance: none;
+    width: 400px;
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 1;
+  }
+
 
   .overlay-up {
     top: 10%;
@@ -653,6 +752,10 @@ Phones
   }
 
   /* Showcase */
+
+  .cotw h1{
+    font-size: 30px;
+  }
   .showcase {
     width: 90%;
     height: auto;
