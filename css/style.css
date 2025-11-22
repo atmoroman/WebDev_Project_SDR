@@ -595,24 +595,67 @@ Collection
 */
 
 
-.gallery{
+.collection-list{
+  background-color: #ffc300;
+  padding: 15px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  width: 200px;
+  color:#05152d;
+}
+.collection-list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.collection-list li{
+  margin: 10px 0;
+}
+.collection-list a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 12px;
+  color:#000814;
+  transition: all 0.3s ease;
+  border: 3px solid #000814;
+}
+.collection-list ul li a:hover {
+  background-color: #000814;
+  color: #ffc300;
+}
+
+
+
+.collections{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cars {
   display: inline-block;
   width: 480px;
-  border: 1px solid #000814;
   margin: 100px 10px 10px 10px;
+  border: 2px solid #000814;
 }
-.gallery img{
+.cars img {
   width: 100%;
   height: auto;
 }
+.collection-headings {
+  padding-top: 10px;
+  text-align: center;
+}
 .descriptionCollection{
   padding: 10px;
-text-align: center;
+  text-align: center;
+  height: 140px;
 }
-.gallery:hover{
+.collections:hover{
   border: 1px solid #ffc300;
 }
-
 
 #modeBtn{
   text-decoration: none;
@@ -859,4 +902,5 @@ Phones
     width: 90%;
     margin-top: 40px;
   }
+
 }
