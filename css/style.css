@@ -421,7 +421,7 @@ form {
   flex-direction: column;
   margin: 0px;
 }
-input {
+.inputContact {
   width: 400px;
   margin-bottom: 20px;
   background: rgba(255, 255, 255, 0.19);
@@ -430,6 +430,21 @@ input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 3px;
   height: 40px;
+}
+
+.inputContact::placeholder{
+  color:#2b2f36;
+}
+
+#Message {
+  width: 400px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.19);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  height: 100px;
 }
 
 .overlay-request h1 {
@@ -473,7 +488,7 @@ input {
   border: 1px solid #000814;
   border-radius: 2px;
   position: relative;
-  margin: 70px 20px 20px 20px;
+  margin-top:70px;
   background-color: #ffc300;
   appearance: none;
   width: 400px;
@@ -896,3 +911,4 @@ Phones
 }
 
 }
+
